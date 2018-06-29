@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family:font1;
+  src:url(fonts/Shrikhand-Regular.ttf);
+}
+@font-face {
+  font-family:font2;
+  src:url(fonts/Jura-Light.ttf);
+}
+
+.jumbotron {
+  background-image: url(../img/leaves-pattern.png);
+
+}
+
+#cardsection {
+  border-radius: 300px;
+  display: block;
+}
+
+
+#jumbotron1 {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
